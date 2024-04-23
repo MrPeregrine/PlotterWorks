@@ -8,6 +8,14 @@
         <meta content="" name="keywords">
         <meta content="" name="description">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#2e86ab">
+        <meta name="msapplication-TileColor" content="#f4f6ee">
+        <meta name="theme-color" content="#ffffff">
+
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,11 +122,11 @@
 
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Cart</h1>
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="#">Hogar</a></li>
-                <li class="breadcrumb-item"><a href="#">Paginas</a></li>
-                <li class="breadcrumb-item active text-white">Carro</li>
+            <h1 class="text-center text-white display-6">Carrito</h1>
+            <ol class="breadcrumb justify-content-center mb-0 espacioMenu">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <!-- <li class="breadcrumb-item"><a href="#">Paginas</a></li> -->
+                <li class="breadcrumb-item active text-white">Carrito</li>
             </ol>
         </div>
         <!-- Single Page Header End -->
@@ -131,12 +139,12 @@
                     <table class="table">
                         <thead>
                           <tr>
-                            <th scope="col">Products</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Quantity</th>
+                            <th scope="col"></th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
                             <th scope="col">Total</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col"></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -262,23 +270,23 @@
                     <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
                         <div class="bg-light rounded">
                             <div class="p-4">
-                                <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                                <h1 class="display-6 mb-4">Orden<span class="fw-normal"></span></h1>
                                 <div class="d-flex justify-content-between mb-4">
                                     <h5 class="mb-0 me-4">Subtotal:</h5>
                                     <p class="mb-0">$96.00</p>
                                 </div>
-                                <div class="d-flex justify-content-between">
-                                    <h5 class="mb-0 me-4">Compra</h5>
+                                <!-- <div class="d-flex justify-content-between">
+                                    <h5 class="mb-0 me-4">Envio</h5>
                                     <div class="">
-                                        <p class="mb-0">Emvio: $3.00</p>
+                                        <p class="mb-0">$3.00</p>
                                     </div>
                                 </div>
-                                <p class="mb-0 text-end">Compra a juarez.</p>
+                                <p class="mb-0 text-end"></p> -->
                             </div>
-                            <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
+                            <!-- <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                                 <h5 class="mb-0 ps-4 me-4">Total</h5>
                                 <p class="mb-0 pe-4">$99.00</p>
-                            </div>
+                            </div> -->
                             <button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Procesar Compra</button>
                         </div>
                     </div>
@@ -289,7 +297,7 @@
 
 
         <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
                 <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
                     <div class="row g-4">
