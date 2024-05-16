@@ -31,7 +31,7 @@
     
     
    // Back to top button
-   $(window).scroll(function () {
+    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
         $('.back-to-top').fadeIn('slow');
     } else {
@@ -44,7 +44,7 @@
     });
 
 
-    // Testimonial carousel
+    //carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 2000,
@@ -78,7 +78,7 @@
     });
 
 
-    // vegetable carousel
+    // imgs carousel
     $(".vegetable-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
